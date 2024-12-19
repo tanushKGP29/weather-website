@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="navigation-box">
+        <a href="#section1"><button>Search Bar</button></a>
+        <a href="#section2"><button>About</button></a>
+        <a href="#section3"><button>Footer</button></a>
+    </div>
+    
+    <section id="section1">
+        <div class="container">
+            <h1>Weather Dashboard</h1>
+            <div class="search-bar">
+                <input type="text" id="city" placeholder="Search for location">
+                <button onclick="getWeather()">Get Weather</button>
+            </div>
+            <div id="weather-info">
+                <h2 id="city-name">City Name</h2>
+                <p id="date-time">Date & Time: --</p>
+                <p id="temperature">Temperature: --</p>
+                <p id="humidity">Humidity: --%</p>
+                <p id="description">Description: --</p>
+                <p id="windspeed">Wind Speed: --</p>
+                <p id="pressure">Pressure: --</p>
+            </div>
+        </div>
+    </section>
+    
+    <section id="section2">
+        <div class="container-second">
+            <h1>About</h1>
+            <p>
+                This weather app provides real-time weather information and forecasts.
+                It typically features temperature, wind speed, humidity.
+                Keeping users informed about weather conditions in thier location and around the world. 
+            </p>
+        </div>
+    </section> 
+    
+    <section id="section3">
+        <div class="container-third">
+            <a href="https://github.com" target="_blank">Github</a>
+            <a href="https://www.linkedin.com" target="_blank">LinkedIn</a>
+            <a href="Footer/terms.html" target="_blank">Terms and Conditions</a>
+            <a href="Footer/copyright.html" target="_blank">Copyright information</a>
+            <a href="Footer/privacy.html" target="_blank">Privacy Policy</a>
+        </div>
+    </section>
+    
+    <button id="backToTopBtn" class="back-to-top-btn">Back to Top</button>
+
+    
+    <script src="script.js"></script>
+</body>
+</html>

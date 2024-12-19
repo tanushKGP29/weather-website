@@ -1,0 +1,112 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 300px;
+}
+
+.navigation-box {
+    background-color: #333;
+    padding: 10px 0;
+    width: 100%;
+    text-align: center;
+}
+
+.navigation-box a {
+    text-decoration: none;
+    color: white;
+    margin: 0 15px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+section {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 24px;
+    color: #333;
+}
+
+.container, .container-second, .container-third {
+    text-align: center;
+}
+
+.search-bar {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    width: 250px;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+#weather-info {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #333;
+}
+
+#weather-info p {
+    margin: 5px 0;
+}
+
+#section2 p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+#section3 a {
+    font-size: 14px;
+    color: #555;
+    margin: 5px 0;
+    display: block;
+}
+
+#section3 a:active {
+    color: #ff5733;
+}
+
+.back-to-top-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: none; 
+    font-size: 16px;
+}
+
+.back-to-top-btn:hover {
+    background-color: #45a049;
+}
